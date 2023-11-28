@@ -1,7 +1,8 @@
 import axios from "axios"
 import queryString from "query-string"
 
-const baseURL = "https://moon-light-v65x-4xsqyzxhi-mustafa-aymans-projects.vercel.app/api/v1/"
+const baseURL = "https://moveis-icvgtr2q6-mustafa-aymans-projects.vercel.app/api/v1/"
+
 
 const publicClient = axios.create({
     baseURL,
