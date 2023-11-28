@@ -1,7 +1,7 @@
 import axios from "axios"
 import queryString from "query-string"
 
-const baseURL = "https://movies-h5937fg8i-mustafa-aymans-projects.vercel.app/api/v1/"
+const baseURL = "https://movies-app-psi-wheat.vercel.app/api/v1/"
 const privateClient = axios.create({
     baseURL,
     paramsSerializer:{
